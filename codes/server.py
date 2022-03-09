@@ -11,7 +11,7 @@ import random
 
 
 async def handler(websocket, path):
-    fase_cascade = cv2.CascadeClassifier('C:/Users/Pc/CALISMALARIM/Django_web/Toyota/cascade/frontalface.xml')
+    fase_cascade = cv2.CascadeClassifier('datas/frontalface.xml')
     new_frame_time=0
     prev_frame_time=0
     while True:
